@@ -90,55 +90,12 @@ public class Demo{
         int x=1%5;
         System.out.println(x);
 
-        // Flow control statements
-        int age=18;
-        if(age>=18){
-            System.out.println("You can vote");
-        }
-        else{
-            System.out.println("You cannot vote");
-        }
-// Nested if
-        int percentage=50;
-        boolean hasHT=true;
-        if(hasHT){
-                    if(percentage>=60){
-                        System.out.println("Eligible to write exam");
-                    }
-                     else{
-                        System.out.println("Pay the fine amount"); 
-               }
-         } else{
-                System.out.println("Not eligible to write exam");
-                  }    
-        //    Switch case
-        //switch:
+        // 3. Logical operators && , || , !
+        // 4. Bitwise operators & , | , ^ , ~ , << , >>
 
-            /*
-             int a=3;
-             switch(a){
-                 case 1:
-                    System.out.println(a++);
-                    break;
-                case 2:
-                    System.out.println(a++);
-                    break;
-                case 3:
-                    System.out.println(a++);
-                    break;
-                case 4:
-                    System.out.println(a++);
-                    break;
-                case 5:
-                    System.out.println(a++);
-                    break;
-                default:
-                    System.out.println("Default")
-                    break;
-                
-                     } */
-                    // import java.util.Scanner;
-                    // Scanner sc = new Scanner(System.in);
+        // 5. Control flow statements
+        
 
-        }
+        
     }
+}
