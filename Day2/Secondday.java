@@ -1,4 +1,4 @@
-public class Hello{
+public class Secondday {
     public static void main(String[] args) {
         
         //1. Git and Github
@@ -48,6 +48,34 @@ public class Hello{
                  // git status --short --> to get like a summary
                  // git log --> all the commit messages till now will be visable
                  // git log --oneline --> to show in oneline
+            
+            //2. Looping:
+                 /*
+                 1. for loop
+                 2. while loop
+                 3. do while loop */
+
+                 //for:
+                 /*
+                 
+                 syntax:
+                 
+                 for (initialise;condition;increment){
+                        block of statements
+                    }*/
+                //while:
+                /*
+                
+                while(condition){
+                       block of statements
+                    }*/
+
+                //do while
+                /*
+                
+                do{
+                     block of statements
+                   }while(condition)*/
 
   
 
