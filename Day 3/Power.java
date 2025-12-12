@@ -22,12 +22,8 @@ public class Power {
         System.out.println("Enetr the power number:");
         int power= sc.nextInt();
         double box=1;
-        if(power < 0){
-            base = 1/base;
-            power = -power;
-        }
-        if(power ==0){
-            System.out.println(box)
-        }
+    
+        box=Math.pow(base,power);
+        System.out.println(base+" raised to the power "+power+" is: "+box);
     }
 }
