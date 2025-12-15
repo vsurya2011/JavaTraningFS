@@ -21,3 +21,21 @@ public class Frequencyofarray {
     }
     
 }
+/*int max=Integer.MIN_value;
+for(int i=0;i<a;i++){
+if(a[i]>max){
+max=a[i];
+}
+} 
+int dp[]=new int[max+1];
+for(int i=0;i<a.length;i++)
+{
+dp[a[i]++;
+}
+for(int i=0;i<dp.length;i++)
+{
+if(dp[i]>0){
+System.out.println(i+" "+dp[i]);
+}
+}
+}*/
