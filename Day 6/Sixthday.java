@@ -94,7 +94,14 @@ public class Sixthday{
         String str="my World";
         System.out.println(str.substring(3,8));
         System.out.println(str.substring(0,8));
+    //   no negative index
+    //  System.out.println(str.substring(0,-1)); 
 
-
+    // charAt()
+        String strr="Hello";
+        System.out.println(strr.charAt(1));
+    //  subsequence()
+        String strrr="Hello World";
+        System.out.println(strrr.subSequence(0,5));
   }
 }
