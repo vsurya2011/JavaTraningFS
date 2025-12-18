@@ -1,4 +1,4 @@
-class Solution {
+class RemoveOuterParentheses{
 public String removeOuterParentheses(String s) {
 StringBuilder result = new StringBuilder();
 int balance = 0;
@@ -8,7 +8,7 @@ if (balance > 0) {
 result.append(c);
 }
 balance++;
-} else { // c == ')'
+} else { // c == ')
 balance--;
 if (balance > 0) {
 result.append(c);
